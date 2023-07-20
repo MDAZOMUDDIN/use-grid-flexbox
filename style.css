@@ -44,3 +44,43 @@
 #bey-6{
     grid-column: span 3;
 }
+.alom{
+    margin-top: 20px;
+}
+.maty{
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 50px 50px 50px 50px;
+}
+.jannat{
+    background-color: black;
+    color: aliceblue;
+}
+#buy-1{
+    grid-column: span 4;
+}
+#buy-2{
+    grid-row: span 2;
+}
+#buy-3{
+    grid-row: span 2;
+}
+#buy-4{
+    grid-row: span 2;
+
+}
+#buy-5{
+    grid-row: span 1;
+}
+#buy-6{
+    grid-row: span 1;
+}
+#buy-7{
+    grid-column: span 4;
+}
+.alom{
+    background-color: bisque;
+}
